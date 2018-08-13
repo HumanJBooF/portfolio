@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -23,14 +26,18 @@
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <a href="">About Me</a>
+                        <a href="#about">About Me</a>
                     </li>
                     <li>
-                        <a href="">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="#tech" class="tech">Technologies</a>
+                    </li>
+                </ul>
                 </ul>
             </div>
         </div>
@@ -53,71 +60,181 @@
             </div>
         </li>
         <li>
-            <a href="#!">
+            <a href="#about">
                 <i class="material-icons">cloud</i>About Me</a>
         </li>
         <li>
-            <a href="#!">Projects</a>
+            <a href="#projects">
+                <i class="fas fa-code fa-2x"></i>Projects</a>
         </li>
         <li>
-            <a href="#!">GitHub</a>
+            <a href="#!">
+                <i class="fab fa-github fa-2x"></i>GitHub</a>
         </li>
         <li>
-            <a href="#!">LinkedIn</a>
+            <a href="#!">
+                <i class="fab fa-linkedin fa-2x"></i>LinkedIn</a>
         </li>
     </ul>
 
-    <div class="parallax-container">
+    <div class="parallax-container valign-wrapper center">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 white-text">
+                    <h1>Welcome!</h1>
+                    <div class="row col s12">
+                        <h1 class="typed"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="parallax">
             <img src="assets/img/code.jpg">
+        </div>
+    </div>
+    <div class="section scrollspy blue" id="about">
+        <div class="container center-align">
+            <div class="row">
+                <h2 class="about" data-aos="flip-down">About Me</h2>
+            </div>
+            <div class="row">
+                <img src="./assets/img/josh.jpg" data-aos="flip-up" alt="Joshua" class="circle responsive-img z-depth-5 hoverable josh" />
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <h6>I have always had a passion for the tech industry. One day I finally decided it was time to do something
+                    about it. I am currently attending UNH coding bootcamp to make my passion a career. I am an eager and
+                    patient learner with a drive to succeed!</h6>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="container">
+            <div class="row center-align scrollspy" id="tech">
+                <div class="card horizontal transparent">
+                    <div class="card-stacked">
+                        <div class="card-content white-text">
+                            <h1 class=" typed1"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4 l2 z-depth-5" data-aos="flip-up">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/img/html5-logo.png" class="responsive-img" alt="html5" />
+                        </div>
+                        <div class="card-content center-align">
+                            <p>HTML5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 l2 z-depth-5" data-aos="flip-down" data-aos-delay="300">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/img/css3.png" class="responsive-img" alt="CSS3" />
+                        </div>
+                        <div class="card-content center-align">
+                            <p>CSS3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 l2 z-depth-5" data-aos="flip-left" data-aos-delay="600">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/img/javascript-logo.png" class="responsive-img" alt="Javascript" />
+                        </div>
+                        <div class="card-content center-align">
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 l2 z-depth-5" data-aos="flip-right" data-aos-delay="900">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/img/jquery.png" class="responsive-img" alt="Jquery" />
+                        </div>
+                        <div class="card-content center-align">
+                            <p>Jquery</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 l2 z-depth-5" data-aos="flip-up" data-aos-delay="1200">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/materialize.png" alt="materialize" class="responsive-img" />
+                        </div>
+                        <div class="card-content center-align">
+                            <p>Materialize Css</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 l2 z-depth-5" data-aos="flip-down" data-aos-delay="1500">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/vs.png" alt="vs-code" class="responsive-img" />
+                        </div>
+                        <div class="card-content center-align">
+                            <p>VS Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
 
             </div>
+            <div class="parallax">
+                <img src="assets/img/code1.jpg">
+            </div>
         </div>
     </div>
-    <div class="section white">
-        <div class="row container">
-
-
+    <div class="section scrollspy" id="projects">
+        <div class="container">
+            <div class="row">
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3">
+                        <a href="#test-swipe-1">Test 1</a>
+                    </li>
+                    <li class="tab col s3">
+                        <a class="active" href="#test-swipe-2">Test 2</a>
+                    </li>
+                    <li class="tab col s3">
+                        <a href="#test-swipe-3">Test 3</a>
+                    </li>
+                </ul>
+                <div id="test-swipe-1" class="col s12 blue">Test 1</div>
+                <div id="test-swipe-2" class="col s12 red">Test 2</div>
+                <div id="test-swipe-3" class="col s12 green">Test 3</div>
+            </div>
         </div>
     </div>
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="assets/img/code1.jpg">
-        </div>
-    </div>
-    <div class="section white">
-        <div class="row container">
 
-
-        </div>
-    </div>
     <div class="parallax-container">
         <div class="parallax">
             <img src="assets/img/star.png">
         </div>
     </div>
-    <div class="section white">
-        <div class="row container">
-
-
+    <div class="section scrollspy" id="contact">
+        <div class="container">
+            <div class="row"></div>
         </div>
     </div>
+
     <div class="parallax-container">
         <div class="parallax">
             <img src="assets/img/code1.jpg">
         </div>
     </div>
 
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="./assets/js/app.js"></script>
 </body>

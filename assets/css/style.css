@@ -3,7 +3,21 @@
         padding-left: 300px;
       }
   
-      
+      .parallax-container {
+          height: 600px;
+      }
+
+      .josh {
+          height: 450px;
+          width: 300px;
+      }
+
+     .typed, .typed1 {
+         display: inline-block;
+     }
+
+     
+     
       @media only screen and (max-width : 992px) {
         header, main, footer {
           padding-left: 0;
