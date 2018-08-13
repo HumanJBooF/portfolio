@@ -21,21 +21,7 @@ $(function () {
 
     let typed = new Typed(".typed", options);
   
-    $('.tech').on('click', function () {
- 
-            
-            let options1 = {
-                strings: ["Languages, Frameworks & Tools"],
-                typeSpeed: 70,
-                loop: false,
-                contentType: 'html',
-                showCursor: true,
-                cursorChar: '|',
-                
-            }
-            let typed = new Typed(".typed1", options1);
-        
-    });
+   
     AOS.init({
         duration: 1500,
         mirror: false,
