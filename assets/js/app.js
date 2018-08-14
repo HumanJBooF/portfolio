@@ -1,8 +1,10 @@
 $(function () {
 
-    $(".dropdown-trigger").dropdown();
-    $('.tabs').tabs();
-    $('.scrollspy').scrollSpy();
+    $('.collapsible').collapsible()
+    $('.slider').slider();
+    $('.scrollspy').scrollSpy({
+        scrollOffset: 100
+    });
     $('.parallax').parallax();
     $('.sidenav').sidenav({
         draggable: true
@@ -10,17 +12,29 @@ $(function () {
     $('.tooltipped').tooltip();
 
     let options = {
-        strings: ["I am a... <br> Web Developer <br> Check out my work..."],
-        typeSpeed: 70,
-        loop: false,
+        strings: ["Welcome to my page! <br> I am a Web Developer <br>Come check out my work..."],
+        typeSpeed: 60,
+        loop: true,
         contentType: 'html',
         showCursor: true,
         cursorChar: '|',
         startDelay: 1000,
+        backSpeed: 20,
+        backDelay: 5000
+    }
+    
+    let options1 = {
+        strings: ["Languages, Frameworks & Tools"],
+        typeSpeed: 60,
+        loop: true,
+        contentType: 'html',
+        showCursor: true,
+        cursorChar: '|',
+        startDelay: 2000,
     }
 
     let typed = new Typed(".typed", options);
-  
+    let typed1 = new Typed(".typed1", options1)
    
     AOS.init({
         duration: 1500,
