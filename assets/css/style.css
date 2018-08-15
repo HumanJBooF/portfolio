@@ -27,7 +27,7 @@ header, main, footer {
     width: 300px;
 }
 
-.typed, .typed1 {
+.typed {
     display: inline-block;
 }
 
@@ -51,6 +51,17 @@ a.links:focus {
     color: #2A044A !important;
 }
 
+a.links:hover {
+    color: red !important;
+}
+
+a.navLinks {
+    font-weight: bolder;
+}
+
+a.navLinks:focus {
+    color: #0D6759 !important;
+}
 .card.medium {
     border: 1pt solid black;
 }

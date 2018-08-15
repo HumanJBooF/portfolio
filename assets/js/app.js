@@ -16,10 +16,10 @@ $(function () {
         loop: true,
         contentType: 'html',
         showCursor: true,
-        cursorChar: '|',
+        cursorChar: '_',
         startDelay: 1000,
         backSpeed: 20,
-        backDelay: 5000
+        backDelay: 3500
     }
 
    
