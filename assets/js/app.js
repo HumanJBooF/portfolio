@@ -10,7 +10,7 @@ $(function () {
         draggable: true
     });
     $('.tooltipped').tooltip();
-
+//typed.js objects
     let options = {
         strings: ["Welcome to my page! <br> I am a Web Developer <br>Come check out my work..."],
         typeSpeed: 60,
@@ -32,7 +32,7 @@ $(function () {
         cursorChar: '|',
         startDelay: 2000,
     }
-
+//typed.js grab each element
     let typed = new Typed(".typed", options);
     let typed1 = new Typed(".typed1", options1)
    
