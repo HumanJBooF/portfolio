@@ -11,7 +11,7 @@ header, main, footer {
 }
 
 .terminal {
-    border: 5pt outset;
+    border: 5pt solid #0D6759;
 }
 
 .about-text {
@@ -31,14 +31,33 @@ header, main, footer {
     display: inline-block;
 }
 
+.skills, .appsText, .collection-item {
+    font-weight: bolder;
+}
+
 .cards:nth-child(odd) {
-    background-color:#0D6759;
+    background-color: #0D6759;
 }
 
 .cards:nth-child(even) {
     background-color: #2A044A;
 }
 
+a.links {
+    color: #0D6759 !important;
+}
+
+a.links:focus {
+    color: #2A044A !important;
+}
+
+.card.medium {
+    border: 1pt solid black;
+}
+
+.card-content, .card-action {
+    border-top: 1pt solid black;
+}
 @media only screen and (max-width: 992px) {
     header, main, footer {
         padding-left: 0;
