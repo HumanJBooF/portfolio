@@ -22,7 +22,6 @@ $(function () {
         backDelay: 3500
     }
 
-   
     //typed.js grab each element
     let typed = new Typed(".typed", options);
     
