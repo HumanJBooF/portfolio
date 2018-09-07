@@ -1,6 +1,6 @@
 $(function () {
 
-    
+
     $('.scrollspy').scrollSpy({
         scrollOffset: 100
     });
@@ -11,7 +11,7 @@ $(function () {
 
     //typed.js objects
     let options = {
-        strings: ["Welcome to my page! <br> I am a Web Developer <br>Come check out my work..."],
+        strings: ["Welcome to my page! <br> I am a Full Stack Developer <br>Come check out my work..."],
         typeSpeed: 60,
         loop: true,
         contentType: 'html',
@@ -24,7 +24,7 @@ $(function () {
 
     //typed.js grab each element
     let typed = new Typed(".typed", options);
-    
+
 
     AOS.init({
         duration: 1500,
