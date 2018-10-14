@@ -6,7 +6,7 @@ header, main, footer {
     padding-left: 300px;
 }
 
-.nav-wrapper, .section, footer {
+.nav-wrapper, .section, footer, .btn-large {
     background-color: #0B2E59 !important;
 }
 
@@ -75,13 +75,23 @@ a.navLinks:focus {
     border-top: 1pt solid black;
 }
 
-.collapsible-header {
-    border: 1pt solid black !important;
+.pop {
+    background-color: black !important;
+    border: 5pt solid #0D6759 !important;
+    margin-top: 2em !important;
 }
 
-.pop {
-    background-color: white !important;
-    border: 1pt solid black !important;
+.one, .two {
+    border: 2pt solid #0D6759 !important;
+}
+
+.itemsOne, .itemsTwo {
+    padding: 0px !important;
+}
+
+.btn-large {
+    border: 2pt solid #0D6759 !important;
+    margin: 10px !important;
 }
 
 @media only screen and (max-width: 992px) {

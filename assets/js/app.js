@@ -1,6 +1,41 @@
 $(function () {
 
+    const $one = $('.one');
+    const $two = $('.two');
+    const $btn = $('.btn-large');
+    const $pop = $('.pop');
 
+    $one.hide();
+    $two.hide();
+
+    const tech = ['ES6', 'Express', 'SQL', 'NoSql', 'MySql',
+        'Sequelize', 'MongoDB', 'Firebase', 'Materialize',
+        'Bootstrap'];
+
+    const tech1 = ['Docker', 'Vagrant', 'Shell-Script',
+        'Handlebars', 'Virtualization',
+        'Command Line', 'VS Code', 'NPM/Yarn', 'Git'];
+
+    tech.forEach(name => {
+        const $li = $(`<li class='collection-item itemsOne'>`)
+        $li.append(name);
+        $one.append($li);
+    });
+
+    tech1.forEach(name => {
+        const $li = $(`<li class='collection-item itemsTwo'>`)
+        $li.append(name);
+        $two.append($li);
+    });
+
+    $btn.on('click', () => {
+        $pop.fadeOut(() => {
+            $one.fadeIn(1000);
+            $two.fadeIn(1000);
+        });
+    })
+
+    //materialize init
     $('.scrollspy').scrollSpy({
         scrollOffset: 100
     });
