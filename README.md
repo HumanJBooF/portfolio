@@ -1,6 +1,6 @@
 # Joshua LeBoeuf
 
-### [Full Stack Developer Portfolio](https://humanjboof.github.io/Portfolio/)
+### [Full Stack Developer Portfolio](https://humanjboof.github.io/portfolio/)
 
 ### On here you can fine
 
