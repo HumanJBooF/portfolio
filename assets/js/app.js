@@ -8,9 +8,10 @@ $(function () {
     $('.sidenav').sidenav({
         draggable: true
     });
+    $('.collapsible').collapsible();
 
     //typed.js objects
-    let options = {
+    const options = {
         strings: ["Welcome to my page! <br> I am a Full Stack Developer <br>Come check out my work..."],
         typeSpeed: 60,
         loop: true,
@@ -23,7 +24,7 @@ $(function () {
     }
 
     //typed.js grab each element
-    let typed = new Typed(".typed", options);
+    const typed = new Typed(".typed", options);
 
 
     AOS.init({

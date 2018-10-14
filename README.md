@@ -1,6 +1,6 @@
 # Joshua LeBoeuf
 
-## Full Stack Developer Portfolio
+### [Full Stack Developer Portfolio](https://humanjboof.github.io/Portfolio/)
 
 ### On here you can fine
 
@@ -21,7 +21,6 @@
 - Typed.js
 - AoS.Js
 
-## *Live Link*
-https://humanjboof.github.io/Portfolio/
+
 
 
