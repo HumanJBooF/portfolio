@@ -8,7 +8,7 @@ $(function () {
     $one.hide();
     $two.hide();
 
-    const tech = ['ES6', 'Express', 'SQL', 'NoSql', 'MySql',
+    const tech = ['ES6', 'Css3', 'SQL', 'NoSql', 'MySql',
         'Sequelize', 'MongoDB', 'Firebase', 'Materialize',
         'Bootstrap'];
 
