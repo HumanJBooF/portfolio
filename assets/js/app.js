@@ -9,7 +9,7 @@ $(function () {
     $two.hide();
 
     const tech = ['ES6', 'Css3', 'SQL', 'NoSql', 'MySql',
-        'Sequelize', 'MongoDB', 'Firebase', 'Materialize',
+        'Sequelize', 'MongoDB', 'Materialize',
         'Bootstrap'];
 
     const tech1 = ['Docker', 'Vagrant', 'Shell-Script',
